@@ -16,3 +16,6 @@ g.describe()
 df1=df[1:4]
 df2=df[4:]
 df_combined=pd.concat([df1,df2],ignore_index=True)
+df3=df[['Country','Age']]
+df4=df[['Country','Salary']]
+df_com=pd.concat([df3,df4],axis=1)

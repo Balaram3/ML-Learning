@@ -1,12 +1,12 @@
 import numpy as np;
-import pandas as pd;
-from numpy import dtype
 
-import matplotlib as plt
-a=np.arange(1,21)
-a=a.reshape(5,4)
-print(a.reshape(20,))
-df=pd.read_csv("../../DataScience/DataSets/P14-Data-Preprocessing/Data_Preprocessing/data.csv")
-print(df)
-print('\n')
-print(df[['Country','Age']][df.Age>=30][df.Age<=40.0])
+arr1 = [25, 56, 12, 85, 34, 75]
+arr2 = [42, 3, 86, 32, 856, 46]
+arr1=np.array(arr1)
+arr2=np.array(arr2)
+si=arr1.shape
+narr=np.random.rand(1,6)
+arr1=arr1.astype(dtype=np.complex64)
+arr1_mat=arr1.reshape(2,3)
+arr2_mat=arr2.reshape(2,3)
+arr1_mat+arr2_mat
