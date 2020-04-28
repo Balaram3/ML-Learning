@@ -9,4 +9,5 @@ narr=np.random.rand(1,6)
 arr1=arr1.astype(dtype=np.complex64)
 arr1_mat=arr1.reshape(2,3)
 arr2_mat=arr2.reshape(2,3)
-arr1_mat+arr2_mat
+arr3=arr1_mat+arr2_mat
+print(arr3)
