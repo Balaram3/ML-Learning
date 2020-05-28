@@ -12,4 +12,3 @@ dataset=pd.read_csv(path)
 dataset.isna()
 x_data=dataset.iloc[:,:-1]
 y_data=dataset.iloc[:,-1]
-from sklearn.models import train_test_split
